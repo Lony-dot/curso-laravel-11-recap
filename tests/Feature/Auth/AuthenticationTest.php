@@ -1,6 +1,9 @@
 <?php
 
 use App\Models\User;
+use Tests\TestCase;
+
+uses(TestCase::class);
 
 test('login screen can be rendered', function () {
     $response = $this->get('/login');
