@@ -3,7 +3,7 @@
 use App\Models\User;
 use Tests\TestCase;
 
-uses(TestCase::class);
+// A LINHA "uses(TestCase::class);" FOI APAGADA DAQUI
 
 test('login screen can be rendered', function () {
     $response = $this->get('/login');
